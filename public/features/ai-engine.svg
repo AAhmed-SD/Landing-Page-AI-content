@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg-gradient)" fill-opacity="0.1"/>
+  
+  <!-- Circuit Board Pattern -->
+  <path d="M50 50H350M50 150H350M50 250H350" stroke="url(#line-gradient)" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M100 25V275M200 25V275M300 25V275" stroke="url(#line-gradient)" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Central Brain Icon -->
+  <g filter="url(#glow)">
+    <path d="M175 125C175 118.333 178.333 115 185 115H215C221.667 115 225 118.333 225 125V175C225 181.667 221.667 185 215 185H185C178.333 185 175 181.667 175 175V125Z" fill="url(#icon-gradient)"/>
+    <path d="M185 135H215M185 155H215M185 175H205" stroke="#0A101F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Floating Particles -->
+  <g>
+    <circle cx="100" cy="100" r="4" fill="url(#icon-gradient)"/>
+    <circle cx="300" cy="200" r="4" fill="url(#icon-gradient)"/>
+    <circle cx="150" cy="250" r="4" fill="url(#icon-gradient)"/>
+    <circle cx="250" cy="50" r="4" fill="url(#icon-gradient)"/>
+  </g>
+  
+  <!-- Connecting Lines -->
+  <path d="M100 100L175 125M300 200L225 175M150 250L175 175M250 50L225 125" stroke="url(#line-gradient)" stroke-width="1"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6F4CFF" stop-opacity="0.2"/>
+    </linearGradient>
+    
+    <linearGradient id="line-gradient" x1="50" y1="25" x2="350" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="icon-gradient" x1="175" y1="115" x2="225" y2="185" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <filter id="glow" x="165" y="105" width="70" height="90" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg> 

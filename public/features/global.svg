@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg-gradient)" fill-opacity="0.1"/>
+  
+  <!-- Globe -->
+  <g filter="url(#glow)">
+    <circle cx="200" cy="150" r="80" fill="url(#globe-gradient)"/>
+    <circle cx="200" cy="150" r="70" fill="#0A101F"/>
+    
+    <!-- Latitude Lines -->
+    <path d="M130 150H270" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M140 120H260" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M140 180H260" stroke="url(#line-gradient)" stroke-width="1"/>
+    
+    <!-- Longitude Lines -->
+    <path d="M200 80C160 80 160 150 160 220" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M200 80C240 80 240 150 240 220" stroke="url(#line-gradient)" stroke-width="1"/>
+    
+    <!-- Connection Points -->
+    <circle cx="160" cy="120" r="4" fill="url(#dot-gradient)"/>
+    <circle cx="240" cy="180" r="4" fill="url(#dot-gradient)"/>
+    <circle cx="200" cy="150" r="4" fill="url(#dot-gradient)"/>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g>
+    <path d="M160 120C120 100 80 120 60 140" stroke="url(#connection-gradient)" stroke-width="1"/>
+    <path d="M240 180C280 200 320 180 340 160" stroke="url(#connection-gradient)" stroke-width="1"/>
+    <path d="M200 150C200 220 180 260 160 280" stroke="url(#connection-gradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="60" cy="140" r="4" fill="url(#dot-gradient)"/>
+  <circle cx="340" cy="160" r="4" fill="url(#dot-gradient)"/>
+  <circle cx="160" cy="280" r="4" fill="url(#dot-gradient)"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6F4CFF" stop-opacity="0.2"/>
+    </linearGradient>
+    
+    <linearGradient id="globe-gradient" x1="120" y1="70" x2="280" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="line-gradient" x1="130" y1="80" x2="270" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="connection-gradient" x1="60" y1="120" x2="340" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="dot-gradient" x1="0" y1="0" x2="8" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-10" y="-10" width="420" height="320" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg> 

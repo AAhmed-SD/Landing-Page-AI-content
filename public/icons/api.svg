@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 4L8 8V24L16 28L24 24V8L16 4Z" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 8L16 12L24 8" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 12V28" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 16L16 20L24 16" stroke="url(#paint3_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="8" y1="4" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="8" y1="8" x2="24" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="16" y1="12" x2="16" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="8" y1="16" x2="24" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+  </defs>
+</svg> 

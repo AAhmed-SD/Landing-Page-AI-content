@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg-gradient)" fill-opacity="0.1"/>
+  
+  <!-- Shield -->
+  <g filter="url(#glow)">
+    <path d="M200 80L280 100V160C280 200 240 230 200 250C160 230 120 200 120 160V100L200 80Z" fill="url(#shield-gradient)"/>
+    <path d="M200 100L260 115V160C260 190 230 215 200 230C170 215 140 190 140 160V115L200 100Z" fill="#0A101F"/>
+    
+    <!-- Checkmark -->
+    <path d="M180 160L195 175L220 150" stroke="url(#check-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Circles -->
+    <circle cx="120" cy="100" r="4" fill="url(#dot-gradient)"/>
+    <circle cx="280" cy="100" r="4" fill="url(#dot-gradient)"/>
+    <circle cx="200" cy="250" r="4" fill="url(#dot-gradient)"/>
+    
+    <!-- Lines -->
+    <path d="M120 100C140 80 180 70 200 80" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M280 100C260 80 220 70 200 80" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M120 160C140 200 180 220 200 250" stroke="url(#line-gradient)" stroke-width="1"/>
+    <path d="M280 160C260 200 220 220 200 250" stroke="url(#line-gradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6F4CFF" stop-opacity="0.2"/>
+    </linearGradient>
+    
+    <linearGradient id="shield-gradient" x1="120" y1="80" x2="280" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="check-gradient" x1="180" y1="150" x2="220" y2="175" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="line-gradient" x1="120" y1="70" x2="280" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <linearGradient id="dot-gradient" x1="0" y1="0" x2="8" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E1F4"/>
+      <stop offset="1" stop-color="#6F4CFF"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-10" y="-10" width="420" height="320" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg> 
