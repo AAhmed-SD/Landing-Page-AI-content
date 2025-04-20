@@ -9,6 +9,7 @@ import HowItWorks from '../components/HowItWorks';
 import Pricing from '../components/Pricing';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
+import VideoShowcase from '../components/VideoShowcase';
 
 const HeroSection = () => {
   return (
@@ -153,6 +154,7 @@ export default function Home() {
     <>
       <Navbar />
       <HeroSection />
+      <VideoShowcase />
       <Features />
       <HowItWorks />
       <Pricing />
