@@ -1,4 +1,4 @@
-# ContentAI - Islamic Content Creation & Scheduling Platform
+# ContentAI - Content Creation & Scheduling Platform
 
 A modern, AI-powered platform for Islamic content creators to generate, manage, and schedule content across multiple social media platforms.
 
