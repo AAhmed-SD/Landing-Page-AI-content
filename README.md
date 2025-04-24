@@ -4,7 +4,7 @@ A modern, AI-powered platform for Islamic content creators to generate, manage, 
 
 ## Features
 
-- AI-powered content generation with Islamic context understanding
+- AI-powered content generation
 - Multi-platform content scheduling and management
 - Customizable content templates
 - Performance analytics and insights
