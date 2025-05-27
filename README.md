@@ -54,34 +54,6 @@ src/
 │   └── Footer.tsx
 ```
 
-## Pricing Tiers
-
-- Basic: £99/month
-  - AI Content Generation (100 posts/month)
-  - Basic Templates
-  - Single Platform Integration
-  - Basic Analytics
-  - Email Support
-
-- Professional: £300/month
-  - AI Content Generation (500 posts/month)
-  - Advanced Templates
-  - Multi-Platform Integration
-  - Advanced Analytics
-  - Team Collaboration (3 members)
-  - Priority Support
-  - Custom Branding
-
-- Enterprise: £1,800/month
-  - Unlimited AI Content Generation
-  - Custom Templates
-  - All Platform Integrations
-  - Enterprise Analytics
-  - Unlimited Team Members
-  - Dedicated Support
-  - API Access
-  - Custom Workflow
-  - Advanced Security
 
 ## Contributing
 
