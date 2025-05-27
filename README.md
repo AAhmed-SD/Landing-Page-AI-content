@@ -2,16 +2,6 @@
 
 A modern, AI-powered platform for Islamic content creators to generate, manage, and schedule content across multiple social media platforms.
 
-## Features
-
-- AI-powered content generation
-- Multi-platform content scheduling and management
-- Customizable content templates
-- Performance analytics and insights
-- Team collaboration tools
-- Content approval workflows
-- Media asset management
-
 ## Tech Stack
 
 - Next.js 14
